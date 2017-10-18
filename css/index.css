@@ -1,0 +1,19 @@
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+img:hover
+{
+    filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;
+}
+body{
+    background-color: #FFF;
+}
+p.hint{
+    font-size:large;
+    padding-top: 20px;
+    font-style: italic;
+}
+.container{
+    padding-top: 50px;
+}
