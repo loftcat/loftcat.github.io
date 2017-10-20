@@ -7,41 +7,38 @@
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/lrtk.css"/>
 
 </head>
 <body>
 
 <div class="starter-template">
 
-    <a href="http://baidu.com"><img src="img/avatar.png" class="img-circle" width="140" height="140" alt="哈哈"></a>
+    <a href="http://baidu.com"><img src="img/avatar.png" class="img-circle" id="avatar" width="140" height="140"
+                                    alt="哈哈"></a>
 
     <p class="hint">"合抱之木,生于毫末;九层之台,起于垒土;千里之行,始于足下。"</p>
 
-    <!-- 代码 开始 -->
-    <ul class="grid">
-        <li class="cs-style-2">
-            <figure>
-                <div><img src="img/1.png" alt="img01"></div>
-                <figcaption>
-                    <h3>葱花少年团</h3>
-                    <span>婴幼儿资讯站</span>
-                    <a href="http://116.62.243.54/">过去看看</a>
-                </figcaption>
-            </figure>
-        </li>
-        <li class="cs-style-2">
-            <figure>
-                <div><img src="img/3.png" alt="img03"></div>
-                <figcaption>
-                    <h3>凹凸曼</h3>
-                    <span>凹凸曼的成长点滴</span>
-                    <a href="http://www.jianshu.com/p/9ab63f4353c4">过去看看</a>
-                </figcaption>
-            </figure>
-        </li>
-    </ul>
-    <!-- 代码 结束 -->
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <a href="http://www.jianshu.com/p/9ab63f4353c4"><img src="img/1.png" class="img-circle" id="icon1"
+                                                                         width="140" height="140" alt="哈哈"></a>
+                    <br>
+                    <h class="text">凹凸曼的成长日记</h>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <a href="http://116.62.243.54/"><img src="img/2.png" class="img-circle" width="140" id="icon2"
+                                                     height="140" alt="哈哈"></a>
+                <br>
+                <h class="text">葱花少年团</h>
+            </div>
+        </div>
+
+    </div>
 
 
 </div>
@@ -52,7 +49,6 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
-<script src="js/modernizr.custom.js"></script>
 
 </body>
 </html>

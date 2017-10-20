@@ -2,16 +2,17 @@
     padding: 40px 15px;
     text-align: center;
 }
-img:hover
-{
-    filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;
-    transform: scale(1.2, 1.2);
-}
 body{
     background: url(../img/bg.jpg) center no-repeat;
 }
+
+.text {
+    color: white;
+    font-size: large;
+    line-height: 50px;
+}
 p.hint{
-    font-size: x-large;
+    font-size: large;
     padding-top: 20px;
     font-style: italic;
     color: white;
